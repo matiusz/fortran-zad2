@@ -1,0 +1,6 @@
+set terminal png
+set output "../res/plots/signal_reversed.png"
+
+set grid
+set style data lines
+plot "../res/data/data_reversed" title""

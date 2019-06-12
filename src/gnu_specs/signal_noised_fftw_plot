@@ -1,0 +1,6 @@
+set terminal png
+set output "../res/plots/signal_noised_fft.png"
+
+set grid
+set style data lines
+plot "../res/data/data_noised_fftw" title""
